@@ -1,0 +1,16 @@
+/**
+ * styles.css
+ *
+ * Define as cores aplicadas nos cards quando o content script
+ * identifica as palavras-chave "urgente" ou "importante".
+ */
+
+.ktc-urgente {
+  background-color: #ffd6d6 !important; /* vermelho claro */
+  transition: background-color 0.2s ease-in-out;
+}
+
+.ktc-importante {
+  background-color: #fff7c2 !important; /* amarelo claro */
+  transition: background-color 0.2s ease-in-out;
+}
