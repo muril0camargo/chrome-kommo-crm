@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Kommo Tag Color",
+  "version": "1.0.0",
+  "description": "Coloriza cards do Kommo CRM com base nas tags detectadas no conteúdo.",
+  "content_scripts": [
+    {
+      "matches": ["*://*.kommo.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
